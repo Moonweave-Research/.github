@@ -1,5 +1,7 @@
 # Moonweave Research
 
+<img align="right" width="112" src="https://raw.githubusercontent.com/Moonweave-Research/.github/main/profile/assets/moonweave-research-avatar-512.png" alt="Moonweave Research mark">
+
 Research automation for evidence-backed reading, citation verification, figure workflows, and local knowledge systems.
 
 ![Research tools](https://img.shields.io/badge/research_tools-0969da?style=flat-square)
