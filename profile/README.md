@@ -1,25 +1,36 @@
 # Moonweave Research
 
-Research automation for evidence-backed reading, writing, citation checking, figure workflows, and local-first knowledge systems.
+Research automation for evidence-backed reading, citation verification, figure workflows, and local knowledge systems.
 
-## Public Entry Points
+![Research tools](https://img.shields.io/badge/research_tools-0969da?style=flat-square)
+![Citation checks](https://img.shields.io/badge/citation_checks-8250df?style=flat-square)
+![Zotero workflows](https://img.shields.io/badge/zotero_workflows-1a7f37?style=flat-square)
 
-| Project | What it is for |
+## Start Here
+
+| Project | Use it when you need |
 | --- | --- |
-| [groundcheck](https://github.com/Moonweave-Research/groundcheck) | Research verification skills for grounding claims in fetched evidence, not memory. |
-| [ref-verify](https://github.com/Moonweave-Research/ref-verify) | Reference verification for Claude Code with CrossRef, Semantic Scholar, PubMed, abstracts, and retraction checks. |
-| [zotero-reading-flow](https://github.com/Moonweave-Research/zotero-reading-flow) | Zotero plugin that turns a library into a reading dashboard with progress and last-read columns. |
-| [research-wiki-motion-skill](https://github.com/Moonweave-Research/research-wiki-motion-skill) | Motion guardrails for semantic graph demos, capture mode, and research-wiki visualization work. |
+| [zotero-reading-flow](https://github.com/Moonweave-Research/zotero-reading-flow) | A Zotero reading dashboard with progress, status, and last-read tracking. |
+| [ref-verify](https://github.com/Moonweave-Research/ref-verify) | Live reference checks with CrossRef, Semantic Scholar, PubMed, and retraction signals. |
+| [groundcheck](https://github.com/Moonweave-Research/groundcheck) | Research skills that ground claims in fetched evidence instead of memory. |
 
-## Scope
+## Public Tools
 
-Moonweave Research is for tools that make research work more inspectable: literature workflows, Zotero plugins, citation verification, paper/figure tooling, and knowledge-base interfaces.
+| Area | Projects |
+| --- | --- |
+| Citation and claim verification | [ref-verify](https://github.com/Moonweave-Research/ref-verify), [groundcheck](https://github.com/Moonweave-Research/groundcheck) |
+| Reading workflow | [zotero-reading-flow](https://github.com/Moonweave-Research/zotero-reading-flow) |
+| Visual knowledge systems | [research-wiki-motion-skill](https://github.com/Moonweave-Research/research-wiki-motion-skill) |
 
-Agent infrastructure and general coding-agent systems live in [Moonweave Systems](https://github.com/Moonweave-Systems). Personal utilities and experiments stay under [moonweave](https://github.com/moonweave).
+## What Belongs Here
 
-## Operating Principles
+- Zotero and literature-review workflows
+- Citation, figure, and claim verification
+- Paper-figure and TikZ tooling
+- Local-first research wiki and semantic graph work
 
-- Claims need traceable evidence.
-- Research tools should preserve source context, not flatten it into summaries.
-- Visual and citation workflows need verification surfaces, not just generated output.
-- Local-first workflows are preferred when papers, notes, or lab context are involved.
+Agent infrastructure lives in [Moonweave Systems](https://github.com/Moonweave-Systems). Personal utilities stay under [moonweave](https://github.com/moonweave).
+
+## Design Bias
+
+Research tools should preserve evidence trails. Keep source context visible, make uncertainty inspectable, and verify claims before polishing prose.
